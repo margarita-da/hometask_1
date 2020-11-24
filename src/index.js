@@ -40,6 +40,7 @@ returnFirstArgument('Привет')
  */
 function sumWithDefaults(a, b = 100) {
   return a + b;
+
 }
 let res = sumWithDefaults(1)
 console.log(res)
@@ -93,7 +94,6 @@ function returnCounter(number=0) {
    returnArgumentsArray(1, 2, 3) вернет [1, 2, 3]
  */
 function returnArgumentsArray() {
-  
   let arrayArgs = Array.from(arguments)
   return arrayArgs
 }
